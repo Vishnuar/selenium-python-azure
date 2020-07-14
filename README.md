@@ -2,7 +2,7 @@
 Automation framework with Selenium, Python and Azure
 
 ## Prerequisites
-Azure pipelines. Azure pipelines can be intergrated with [Githib](https://github.com/marketplace/azure-pipelines).
+Azure pipelines. Azure pipelines can be intergrated with [Github](https://github.com/marketplace/azure-pipelines).
 
 ## Run test locally
 This suite is designed for linux enviorment
