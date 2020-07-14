@@ -7,7 +7,7 @@ class TestMyURL():
 
 	def test_url_load(self, driver, envurl):
 		try:
-			driver.get(reporturl)
+			driver.get(envurl)
 			print(driver.current_url)
 			assert 'testodev' in driver.current_url, "URL Loading failed"
 		except:
