@@ -9,7 +9,6 @@ This suite is designed for linux enviorment
 - Install pip libraries: 
     - `pip install pytest`
     - `pip install selenium`
-    - `pip install pytest`
 - To run the test, Navigate to the directory and enter the command `pytest -vv -ss --url <url to be validated>`
 
 ## Test Report
