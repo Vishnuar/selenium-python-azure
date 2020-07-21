@@ -13,6 +13,8 @@ def driver():
     # Initialize ChromeDriver
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
     driver_location = './helpers/chromedriver/chromedriver'
     os.chmod(driver_location, 0o775)
     driver = webdriver.Chrome(driver_location,chrome_options=chrome_options)
