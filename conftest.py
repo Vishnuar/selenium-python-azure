@@ -16,6 +16,7 @@ def driver():
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     driver_location = './helpers/chromedriver/chromedriver'
+    os.chmod(driver_location, 0o775)
     driver = webdriver.Chrome(driver_location,options=chrome_options)
     
     # Wait implicitly for elements to be ready before attempting interactions
